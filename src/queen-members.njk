@@ -1,0 +1,21 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Members{% endblock %}
+
+{% block page_description %}A list of bios and descriptions of each member{% endblock %}
+
+{% block content %}
+<article class="container">
+  <h1>Members</h1>
+  <p>Intro text here.</p>
+  <div class="row">
+  {% for members in queen.members %}
+    <div class="col">
+      <img src="img/{{ members.slug }}" alt="" class="img-fluid">
+      <h3><a href="members/{{ members.slug }}">{{ members.name }}</a></h3>
+    </div>
+
+  {%endfor%}
+  </div>
+</article>
+{% endblock %}

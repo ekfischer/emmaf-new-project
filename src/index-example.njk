@@ -1,0 +1,24 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Index page title{% endblock %}
+
+{% block page_description %}The index search description for this page goes here.{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Tour Dates</h1>
+  <p>Queen, the legendary rock band, is set to embark on a grand European tour, featuring an astounding 36 shows across multiple countries. Fans eager to witness their iconic performances in Germany, Switzerland, the UK, France, Belgium, Netherlands, Spain, Italy, Denmark, Sweden, Norway, and Finland are urged to secure their tickets quickly before the opportunity slips away. Don't miss the chance to experience the magic of Queen live on stage!</p>
+
+
+    <div class="col">
+        <h3><a href="queen/{{ tour.city }}.html">{{ tour.city }}</a></h3>
+    </div>
+    {% endfor %}
+    <hr>
+    {% for tour in queen.tour %}
+      <h3><a href="{{ tour.url }}" target="_blank">{{ tour.venue }}</a></h3>
+      <p>{{ tour.city}}, {{ tour.date }}, {{ tour.venue }}</p>
+    <hr>
+    {% endfor %}
+</div>
+{% endblock %}
