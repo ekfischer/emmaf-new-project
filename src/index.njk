@@ -12,30 +12,4 @@
    Throughout their career, Queen achieved massive commercial success, selling millions of records worldwide. They received critical acclaim for their musical prowess, and their live performances were renowned for their energy and showmanship. Despite the tragic loss of Freddie Mercury in 1991, Queen's legacy endures, and the surviving members continue to celebrate the band's music through various collaborations and performances. Queen's influence on the rock genre and their lasting impact on popular culture make them an enduring symbol of musical innovation and creativity.
   </p>
 </div>
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    {% for tour in queen.tour %}
-      <div class="carousel-item {% if loop.first %}active{% endif %}">
-        <img src="..." class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>{{ tour.slide_label }}</h5>
-          <p>{{ tour.slide_content }}</p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 {% endblock %}

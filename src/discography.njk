@@ -1,0 +1,13 @@
+<div class="row">
+  {% for discography in site.discographies %}
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem;">
+        <img src="{{ discography.image }}" class="card-img-top" alt="{{ discography.title }} Image">
+        <div class="card-body">
+          <p class="card-text">{{ discography.description }}</p>
+          <a href="{{ relative_path }}discography/{{ discography.title }}.html" class="btn btn-primary">{{ discography.title }}</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
