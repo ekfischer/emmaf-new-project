@@ -9,7 +9,6 @@
   <h1>Tour Dates</h1>
   <p>Queen, the legendary rock band, is set to embark on a grand European tour, featuring an astounding 36 shows across multiple countries. Fans eager to witness their iconic performances in Germany, Switzerland, the UK, France, Belgium, Netherlands, Spain, Italy, Denmark, Sweden, Norway, and Finland are urged to secure their tickets quickly before the opportunity slips away. Don't miss the chance to experience the magic of Queen live on stage!</p>
 
-<div class="row">
   <table class="table">
     <thead>
       <tr>
@@ -25,7 +24,9 @@
           <th scope="row">{{ loop.index }}</th>
           <td>{{ tour.date }}</td>
           <td>{{ tour.city }}</td>
-          <td>{{ tour.venue }}</td>
+          <td>
+          <a href="#{{ tour.url }}" class="venue-link">{{ tour.venue }}</a>
+        </td>
         </tr>
       {% endfor %}
     </tbody>

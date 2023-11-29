@@ -260,182 +260,218 @@
     {
       "date": "5/27/2022",
       "city": "Belfast, UK",
-      "venue": "SSE Arena"
+      "venue": "SSE Arena",
+      "url": "https://www.ssearenabelfast.com/"
     },
     {
       "date": "5/28/2022",
       "city": "Belfast, UK",
-      "venue": "SSE Arena"
+      "venue": "SSE Arena",
+      "url": "https://www.ssearenabelfast.com/"
     },
     {
       "date": "5/30/2022",
       "city": "Manchester, UK",
-      "venue": "AO Arena Manchester"
+      "venue": "AO Arena Manchester",
+      "url": "https://www.ao-arena.com/"
     },
     {
       "date": "5/31/2022",
       "city": "Manchester, UK",
-      "venue": "AO Arena Manchester"
+      "venue": "AO Arena Manchester",
+      "url": "https://www.ao-arena.com/"
     },
     {
       "date": "6/02/2022",
       "city": "Glasgow, UK",
-      "venue": "The SSE Hydro"
+      "venue": "The SSE Hydro",
+      "url": "https://www.ovohydro.com/"
     },
     {
       "date": "6/03/2022",
       "city": "Glasgow, UK",
-      "venue": "The SSE Hydro"
+      "venue": "The SSE Hydro",
+      "url": "https://www.ovohydro.com/"
     },
     {
       "date": "6/05/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/06/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/08/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/09/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/11/2022",
       "city": "Birmingham, UK",
-      "venue": "Arena Birmingham"
+      "venue": "Arena Birmingham",
+      "url": "https://www.utilitaarenabham.co.uk/"
     },
     {
       "date": "6/12/2022",
       "city": "Birmingham, UK",
-      "venue": "Arena Birmingham"
+      "venue": "Arena Birmingham",
+      "url": "https://www.utilitaarenabham.co.uk/"
     },
     {
       "date": "6/14/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/15/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/17/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/18/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/20/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/21/2022",
       "city": "London, UK",
-      "venue": "O2"
+      "venue": "O2",
+      "url": "https://www.theo2.co.uk/"
     },
     {
       "date": "6/24/2022",
       "city": "Berlin, Germany",
-      "venue": "Mercedes-Benz Arena"
+      "venue": "Mercedes-Benz Arena",
+      "url": "https://www.mercedes-benz-arena-berlin.de/en/"
     },
     {
       "date": "6/26/2022",
       "city": "Cologne, Germany",
-      "venue": "Lanxess Arena"
+      "venue": "Lanxess Arena",
+      "url": "https://www.lanxess-arena.de/"
     },
     {
       "date": "6/28/2022",
       "city": "Zurich, Switzerland",
-      "venue": "Hallenstadion"
+      "venue": "Hallenstadion",
+      "url": "https://hallenstadion.ch/en/"
     },
     {
       "date": "6/29/2022",
       "city": "Munich, Germany",
-      "venue": "Olympiahalle"
+      "venue": "Olympiahalle",
+      "url": "https://www.olympiapark.de/en/the-olympic-park/park-overview/olympic-hall"
     },
     {
       "date": "7/01/2022",
       "city": "Amsterdam, Netherlands",
-      "venue": "Ziggo Dome"
+      "venue": "Ziggo Dome",
+      "url": "https://www.ziggodome.nl/en"
     },
     {
       "date": "7/02/2022",
       "city": "Amsterdam, Netherlands",
-      "venue": "Ziggo Dome"
+      "venue": "Ziggo Dome",
+      "url": "https://www.ziggodome.nl/en"
     },
     {
       "date": "7/06/2022",
       "city": "Madrid, Spain",
-      "venue": "Wizink Centre"
+      "venue": "Wizink Centre",
+      "url": "https://www.esmadrid.com/en/tourist-information/wizink-center"
     },
     {
       "date": "7/07/2022",
       "city": "Madrid, Spain",
-      "venue": "Wizink Centre"
+      "venue": "Wizink Centre",
+      "url": "https://www.esmadrid.com/en/tourist-information/wizink-center"
     },
     {
       "date": "7/10/2022",
       "city": "Bologna, Italy",
-      "venue": "Unipol Arena"
+      "venue": "Unipol Arena",
+      "url": "https://www.unipolarena.it/en/"
     },
     {
       "date": "7/11/2022",
       "city": "Bologna, Italy",
-      "venue": "Unipol Arena"
+      "venue": "Unipol Arena",
+      "url": "https://www.unipolarena.it/en/"
     },
     {
       "date": "7/13/2022",
       "city": "Paris, France",
-      "venue": "AccorHotels Arena"
+      "venue": "AccorHotels Arena",
+      "url": "https://www.accorarena.com/en"
     },
     {
       "date": "7/15/2022",
       "city": "Antwerp Belgium",
-      "venue": "Sportspalais"
+      "venue": "Sportspalais",
+      "url": "https://www.sportpaleis.be/en"
     },
     {
       "date": "7/17/2022",
       "city": "Copenhagen, Denmark",
-      "venue": "Royal Arena"
+      "venue": "Royal Arena",
+      "url": "https://www.royalarena.dk/en"
     },
     {
       "date": "7/18/2022",
       "city": "Copenhagen, Denmark",
-      "venue": "Royal Arena"
+      "venue": "Royal Arena",
+      "url": "https://www.royalarena.dk/en"
     },
     {
       "date": "7/20/2022",
       "city": "Stockholm, Sweden",
-      "venue": "Avicii Arena"
+      "venue": "Avicii Arena",
+      "url": "https://aviciiarena.se/en/"
     },
     {
       "date": "7/21/2022",
       "city": "Oslo, Norway",
-      "venue": "Telneor Arena"
+      "venue": "Telneor Arena",
+      "url": "https://telenorarena.no/en"
     },
     {
       "date": "7/24/2022",
       "city": "Helsinki, Finland",
-      "venue": "Hartwall Arena"
+      "venue": "Hartwall Arena",
+      "url": "https://www.iihf.com/en/events/2022/wm/static/24194/helsinki_arena"
     },
     {
       "date": "7/25/2022",
       "city": "Helsinki, Finland",
-      "venue": "Hartwall Arena"
+      "venue": "Hartwall Arena",
+      "url": "https://www.iihf.com/en/events/2022/wm/static/24194/helsinki_arena"
     }
   ]
 }

@@ -1,13 +1,29 @@
-<div class="row">
-  {% for discography in site.discographies %}
-    <div class="col-md-4">
-      <div class="card" style="width: 18rem;">
-        <img src="{{ discography.image }}" class="card-img-top" alt="{{ discography.title }} Image">
-        <div class="card-body">
-          <p class="card-text">{{ discography.description }}</p>
-          <a href="{{ relative_path }}discography/{{ discography.title }}.html" class="btn btn-primary">{{ discography.title }}</a>
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Discography{% endblock %}
+
+{% block page_description %}The band's discography{% endblock %}
+
+{% block content %}
+  <p class="mx-3">
+    Queen's discography is a sonic journey that spans across genres, showcasing the band's remarkable musical versatility and innovation. Beginning with their eponymous debut album in 1973, Queen quickly asserted their presence in the rock scene, laying the groundwork for a series of iconic releases. The groundbreaking "A Night at the Opera" (1975) marked a turning point with the timeless masterpiece, "Bohemian Rhapsody," showcasing the band's ability to blend rock with operatic elements. The anthemic "News of the World" (1977) delivered hits like "We Will Rock You" and "We Are the Champions," solidifying Queen's global stardom. As the '80s unfolded, the band embraced a more synthesizer-driven sound with albums like "The Game" (1980) and "Hot Space" (1982), experimenting with funk and dance influences. Despite Freddie Mercury's tragic passing in 1991, Queen's posthumous releases, including "Made in Heaven" (1995), continued to captivate audiences, serving as a poignant tribute to their enduring legacy. With an array of chart-topping hits and a commitment to pushing musical boundaries, Queen's discography stands as a testament to their unparalleled creativity and lasting impact on the world of music.
+  </p>
+
+  <div class="row mx-3">
+    {% if queen and queen.discography %}
+      {% for discography in queen.discography %}
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="img/discs/{{ discography.image }}" class="card-img-top" alt="{{ discography.title }} Image">
+            <div class="card-body">
+              <h5 class="card-title">{{ discography.title }}</h5>
+              <p class="card-text">{{ discography.year }}</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  {% endfor %}
-</div>
+      {% endfor %}
+    {% else %}
+      <p>No discography found.</p>
+    {% endif %}
+  </div>
+{% endblock %}

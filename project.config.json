@@ -14,16 +14,16 @@
     {
       "fileId": "1eHpTt4FY_qpP_Jh6ju4tpE3QzjpR56uEcFTQy8Z78YQ",
       "type": "sheet",
-      "name": "Queen members"
+      "name": "queen"
     }
   ],
   "to_bake": [
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "template": "members-bake",
+      "data": "queen",
+      "array": "members",
       "slug": "slug",
-      "path": "books"
+      "path": "members"
     }
   ]
 }
